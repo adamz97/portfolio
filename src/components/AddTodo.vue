@@ -2,7 +2,7 @@
   <v-dialog v-model="dialog" max-width="600px">
     <template v-slot:activator="{ on, attrs }">
       <v-btn color="primary" dark v-bind="attrs" v-on="on">
-        Add TODO
+        Add Todos
       </v-btn>
     </template>
     <v-card>
